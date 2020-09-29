@@ -1,6 +1,6 @@
 describe '#square_array' do
 
-  each  do
+  numbers.each do
     numbers = [1,2,3]
     expect(numbers).to_not receive(:collect)
     expect(numbers).to_not receive(:map)
